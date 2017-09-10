@@ -1,0 +1,51 @@
+.resorts {
+	background: black url("../img/resort-bg.jpg") center center fixed;
+	background-size: cover;
+	.nav a {
+		display: block;
+		border: 2px solid $white;
+		padding: 50px 0;
+		text-transform: uppercase;
+		color: $white;
+		font-size: 20px;
+		font-weight: 700;
+
+		&:hover {
+			color: $primary;
+			border-color: $primary;
+		}
+	}
+
+}
+
+.about-resort {
+	background: rgba(210,255,82,1);
+background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(1,92,48,0.8)));
+background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#015c30', GradientType=1 );
+	.about-resort-img {
+		margin-bottom: 30px;
+	}
+}
+
+
+.vip-resort {
+	background: rgba(179,224,42,1);
+	background: -moz-linear-gradient(left, rgba(179,224,42,1) 0%, rgba(158,171,164,0.8) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,224,42,1)), color-stop(100%, rgba(158,171,164,0.8)));
+	background: -webkit-linear-gradient(left, rgba(179,224,42,1) 0%, rgba(158,171,164,0.8) 100%);
+	background: -o-linear-gradient(left, rgba(179,224,42,1) 0%, rgba(158,171,164,0.8) 100%);
+	background: -ms-linear-gradient(left, rgba(179,224,42,1) 0%, rgba(158,171,164,0.8) 100%);
+	background: linear-gradient(to right, rgba(179,224,42,1) 0%, rgba(158,171,164,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3e02a', endColorstr='#9eaba4', GradientType=1 );
+	
+	 
+	.vip-resort-img {
+		margin-bottom: 30px;
+	}
+}
+

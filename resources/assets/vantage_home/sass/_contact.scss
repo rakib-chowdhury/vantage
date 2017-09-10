@@ -1,0 +1,50 @@
+@import 'variables';
+
+.form-control {
+//	border-color: darken($primary,10);
+	border-radius: 0;
+	&:focus, &:active {
+		border-color: darken($primary,20);
+		-webkit-box-shadow:inset 0px 0px 1px #216626;
+		box-shadow:inset 0px 0px 1px #216626;
+	}
+}
+
+.contact-us {
+	h2 {
+		font-size: 22px;
+		color: $primary;
+	}
+
+	.contact-form {
+		background-color: #ccc;
+		padding: 25px 15px;
+		
+		border: 4px solid darken($primary,15);
+
+		label {
+			color: $primary;
+			font-size: 14px;
+		}
+	}
+
+	.contact-information {
+		padding: 25px 15px;
+
+		p{
+			font-size: 15px;
+		}
+
+		.address {
+			.fa {
+				color: $primary;
+				margin-right: 7px;
+			}
+		}
+
+		.social {
+			font-size: 30px;
+		}
+	}
+}
+

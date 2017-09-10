@@ -1,0 +1,22 @@
+header.others {
+	height: 150px;
+	@media (min-width: 1800px) {
+	    height: 150px !important;
+	}
+	@media(max-width:768px) {
+	    height: 150px !important; //calc(100% - 30px);
+	    padding: 0;
+	    .intro-body {
+	        .brand-heading {
+	            font-size: 100px;
+	        }
+	        .intro-text {
+	            font-size: 26px;
+	        }
+	    }
+	}
+}
+
+#gallery .gallery-img {
+	margin-bottom: 30px;
+}

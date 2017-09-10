@@ -1,0 +1,1085 @@
+@font-face {
+    font-family: "Cambria" !important;
+    font-family: Cambria;
+    /*src: url('resources/assets/vantage_home/font/ufonts.com_cambria.tff');*/
+    src: url('../font/ufonts.com_cambria.tff');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Cambria" !important;
+    font-size: 16px;
+}
+
+html {
+    font-family: "Cambria" !important;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cambria" !important;
+
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: "Cambria" !important;
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-family: "Cambria" !important;
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+.modal-backdrop {
+    font-family: "Cambria" !important;
+    background-color: #194f1e;
+}
+
+a {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover, a:focus {
+    font-family: "Cambria" !important;
+    text-decoration: none;
+    color: #194f1e;
+}
+
+h2 span {
+    font-family: "Cambria" !important;
+    border-bottom: 2px solid #329c3b;
+}
+
+.btn {
+    font-family: "Cambria" !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+}
+
+.btn-default {
+    font-family: "Cambria" !important;
+    border: 1px solid #329c3b;
+    color: #329c3b;
+    background-color: transparent;
+}
+
+.btn-default:hover, .btn-default:focus {
+    font-family: "Cambria" !important;
+    border: 1px solid #329c3b;
+    outline: none;
+    color: black;
+    background-color: #329c3b;
+}
+
+::-moz-selection {
+    font-family: "Cambria" !important;
+    text-shadow: none;
+    background: #primary;
+    background: rgba(50, 156, 59, 0.2);
+}
+
+::selection {
+    font-family: "Cambria" !important;
+    text-shadow: none;
+    background: #329c3b;
+    background: rgba(50, 156, 59, 0.2);
+}
+
+img::selection {
+    font-family: "Cambria" !important;
+    background: transparent;
+}
+
+img::-moz-selection {
+    font-family: "Cambria" !important;
+    background: transparent;
+}
+
+.light {
+    font-family: "Cambria" !important;
+    font-weight: 400;
+}
+
+.btn-primary {
+    font-family: "Cambria" !important;
+    background-color: transparent;
+    border: 2px solid #329c3b;
+    color: #000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:hover {
+    font-family: "Cambria" !important;
+    background-color: #329c3b;
+    border: 2px solid #329c3b;
+}
+
+.top-nav {
+    font-family: "Cambria" !important;
+    color: #fff;
+    height: 35px;
+    background-color: #1c1b1b;
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.top-nav a {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.top-nav a:hover {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+}
+
+.top-nav .contact i.fa {
+    font-family: "Cambria" !important;
+    margin-right: 7px;
+}
+
+.navbar-custom {
+    font-family: "Cambria" !important;
+    margin-bottom: 0;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    background-color: #329c3b;
+}
+
+.navbar-custom .navbar-toggle {
+    font-family: "Cambria" !important;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+    font-family: "Cambria" !important;
+    outline: none;
+}
+
+.navbar-custom .navbar-brand {
+    font-family: "Cambria" !important;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: none;
+}
+
+.navbar-custom .navbar-brand:focus {
+    font-family: "Cambria" !important;
+    outline: none;
+}
+
+.navbar-custom a {
+    font-family: "Cambria" !important;
+    color: white;
+}
+
+.navbar-custom .nav li a {
+    font-family: "Cambria" !important;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    font-family: "Cambria" !important;
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+    font-family: "Cambria" !important;
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    font-family: "Cambria" !important;
+    outline: none;
+}
+
+.navbar-custom .nav li.active a {
+    font-family: "Cambria" !important;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    font-family: "Cambria" !important;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .navbar-custom {
+        font-family: "Cambria" !important;
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        font-family: "Cambria" !important;
+        padding: 0;
+        margin-top: 0;
+        background: #329c3b;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-custom {
+        font-family: "Cambria" !important;
+        margin-top: 0;
+    }
+}
+
+.intro {
+    font-family: "Cambria" !important;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro ::-moz-selection {
+    font-family: "Cambria" !important;
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.intro ::selection {
+    font-family: "Cambria" !important;
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.intro .intro-body {
+    font-family: "Cambria" !important;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-family: "Cambria" !important;
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-family: "Cambria" !important;
+    font-size: 18px;
+}
+
+.intro .intro-body h4 {
+    font-family: "Cambria" !important;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.intro .intro-body hr {
+    font-family: "Cambria" !important;
+    border-color: #329c3b;
+    opacity: .5;
+}
+
+.intro .intro-body h2 {
+    font-family: "Cambria" !important;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.intro .intro-body .call-to-action {
+    font-family: "Cambria" !important;
+    margin-top: 3em;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+@media (min-width: 1800px) {
+    .intro {
+        font-family: "Cambria" !important;
+        height: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        font-family: "Cambria" !important;
+        height: 550px;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-family: "Cambria" !important;
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-family: "Cambria" !important;
+        font-size: 26px;
+    }
+}
+
+@-webkit-keyframes pulse {
+    from {
+        font-family: "Cambria" !important;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        font-family: "Cambria" !important;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        font-family: "Cambria" !important;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    from {
+        font-family: "Cambria" !important;
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        font-family: "Cambria" !important;
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        font-family: "Cambria" !important;
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    font-family: "Cambria" !important;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.about-us h2 {
+    font-family: "Cambria" !important;
+    margin-top: 30px;
+}
+
+.about-us h2 span {
+    font-family: "Cambria" !important;
+    border-bottom: 2px solid #329c3b;
+}
+
+.team {
+    font-family: "Cambria" !important;
+    background: url("../img/team-bg.jpg") center center fixed;
+    background-size: cover;
+}
+
+.team h2 {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.team h2 span {
+    font-family: "Cambria" !important;
+    border-bottom: 2px solid #329c3b;
+}
+
+.team p {
+    font-family: "Cambria" !important;
+    color: #fff;
+    font-size: 16px;
+}
+
+.team #our-team-carousel {
+    font-family: "Cambria" !important;
+    margin-top: 96px;
+}
+
+.team #our-team-carousel p {
+    font-family: "Cambria" !important;
+    font-size: 15px;
+}
+
+.team #our-team-carousel {
+    font-family: "Cambria" !important;
+    margin-top: 30px;
+}
+
+.team #our-team-carousel .carousel-inner p {
+    font-family: "Cambria" !important;
+    margin: 0;
+}
+
+.team #our-team-carousel a {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.team #our-team-carousel .text-brand {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.team #our-team-carousel .carousel-indicators .active {
+    font-family: "Cambria" !important;
+    background: #329c3b;
+}
+
+.team #our-team-carousel .no-margin {
+    font-family: "Cambria" !important;
+    margin: 0;
+}
+
+.team #our-team-carousel .carousel-indicators li {
+    font-family: "Cambria" !important;
+    background-color: #329c3b;
+    border: none;
+}
+
+.team #our-team-carousel .carousel-control {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+    width: 5%;
+}
+
+.team #our-team-carousel .carousel-control:hover,
+.team #our-team-carousel .carousel-control:focus {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+}
+
+.team #our-team-carousel .carousel-control.left,
+.team #our-team-carousel .carousel-control.right {
+    font-family: "Cambria" !important;
+    background-image: none;
+}
+
+.team #our-team-carousel .item {
+    font-family: "Cambria" !important;
+    padding: 15px 40px;
+}
+
+.team #our-team-carousel .media-object {
+    font-family: "Cambria" !important;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .team #our-team-carousel .media-object {
+        font-family: "Cambria" !important;
+        margin-bottom: 15px;
+    }
+}
+
+.team .btn-primary {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+@media (min-width: 767px) {
+    .download-section {
+        font-family: "Cambria" !important;
+        padding: 48px 0;
+    }
+
+    #map {
+        font-family: "Cambria" !important;
+        height: 400px;
+        margin-top: 250px;
+    }
+}
+
+.services {
+    font-family: "Cambria" !important;
+    padding: 96px 0;
+}
+
+.services h2 {
+    font-family: "Cambria" !important;
+    margin-bottom: 3em;
+}
+
+.services h3 {
+    font-family: "Cambria" !important;
+    font-size: 22px;
+}
+
+.services .service-table .plan {
+    font-family: "Cambria" !important;
+    margin-left: 0px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f3f3f3;
+    -moz-box-shadow: 0 0 6px 2px #b0b2ab;
+    -webkit-box-shadow: 0 0 6px 2px #b0b2ab;
+    box-shadow: 0 0 6px 2px #b0b2ab;
+}
+
+.services .plan:hover {
+    font-family: "Cambria" !important;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 12px 3px #b0b2ab;
+    -webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+    box-shadow: 0 0 12px 3px #b0b2ab;
+}
+
+.services .plan {
+    font-family: "Cambria" !important;
+    padding: 20px;
+    color: #ff;
+    background-color: #329c3b;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.services .plan-name-green {
+    font-family: "Cambria" !important;
+    padding: 20px;
+    color: #fff;
+    background-color: #329c3b;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.services .plan-name-silver {
+    font-family: "Cambria" !important;
+    padding: 20px;
+    color: #fff;
+    background-color: #C0C0C0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.services .plan-name-gold {
+    font-family: "Cambria" !important;
+    padding: 20px;
+    color: #fff;
+    background-color: #FFD700;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.services .service-table-bronze {
+    font-family: "Cambria" !important;
+    padding: 20px;
+    color: #fff;
+    background-color: #f89406;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.services .service-table .plan .plan-name span {
+    font-family: "Cambria" !important;
+    font-size: 20px;
+}
+
+.services .service-table .plan ul {
+    font-family: "Cambria" !important;
+    list-style: none;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.services .service-table .plan ul li.plan-feature {
+    font-family: "Cambria" !important;
+    padding: 10px 0;
+}
+
+.services .pricing-variable-height .plan {
+    font-family: "Cambria" !important;
+    float: none;
+    margin-left: 2%;
+    vertical-align: bottom;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.services .plan-mouseover .plan-name {
+    font-family: "Cambria" !important;
+    background-color: #4e9a06 !important;
+}
+
+.services .btn-plan-select {
+    font-family: "Cambria" !important;
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+.testimonial {
+    font-family: "Cambria" !important;
+    /*-------------------------------*/
+    /*    Carousel Fade Transition   */
+    /*-------------------------------*/
+}
+
+.testimonial .quote {
+    font-family: "Cambria" !important;
+    color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial #fade-quote-carousel.carousel {
+    font-family: "Cambria" !important;
+    padding-bottom: 60px;
+}
+
+.testimonial #fade-quote-carousel.carousel .carousel-inner .item {
+    font-family: "Cambria" !important;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.testimonial #fade-quote-carousel.carousel .carousel-inner .active {
+    font-family: "Cambria" !important;
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.testimonial #fade-quote-carousel.carousel .carousel-indicators {
+    font-family: "Cambria" !important;
+    bottom: 10px;
+}
+
+.testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
+    font-family: "Cambria" !important;
+    background-color: #329c3b;
+    border: none;
+}
+
+.testimonial #fade-quote-carousel blockquote {
+    font-family: "Cambria" !important;
+    text-align: center;
+    border: none;
+}
+
+.testimonial #fade-quote-carousel .profile-circle {
+    font-family: "Cambria" !important;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.testimonial #fade-quote-carousel .profile-circle img {
+    font-family: "Cambria" !important;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.why-choose-us {
+    font-family: "Cambria" !important;
+    background: url("../img/why-choose-us-bg.jpg") center center;
+    background-size: cover;
+}
+
+.footer-top {
+    font-family: "Cambria" !important;
+    font-size: 16px;
+    color: #fff;
+    background-color: #454545;
+}
+
+.footer-top a {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.footer-top a:hover, .footer-top a:focus, .footer-top a:active {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+}
+
+.footer-top .subscribe input[type="email"] {
+    font-family: "Cambria" !important;
+    color: #000;
+    padding: 5px 80px 5px 10px;
+    width: 98%;
+}
+
+.footer-top .subscribe button[type="submit"] {
+    font-family: "Cambria" !important;
+    padding: 7px 10px;
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    font-family: "Cambria" !important;
+    padding: 15px 0;
+}
+
+footer p {
+    font-family: "Cambria" !important;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+header.others {
+    font-family: "Cambria" !important;
+    height: 150px;
+}
+
+@media (min-width: 1800px) {
+    header.others {
+        font-family: "Cambria" !important;
+        height: 150px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    header.others {
+        font-family: "Cambria" !important;
+        height: 150px !important;
+        padding: 0;
+    }
+
+    header.others .intro-body .brand-heading {
+        font-family: "Cambria" !important;
+        font-size: 100px;
+    }
+
+    header.others .intro-body .intro-text {
+        font-family: "Cambria" !important;
+        font-size: 26px;
+    }
+}
+
+#gallery .gallery-img {
+    font-family: "Cambria" !important;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    font-family: "Cambria" !important;
+    border-radius: 0;
+}
+
+.form-control:focus, .form-control:active {
+    font-family: "Cambria" !important;
+    border-color: #194f1e;
+    -webkit-box-shadow: inset 0px 0px 1px #216626;
+    box-shadow: inset 0px 0px 1px #216626;
+}
+
+.contact-us h2 {
+    font-family: "Cambria" !important;
+    font-size: 22px;
+    color: #329c3b;
+}
+
+.contact-us .contact-form {
+    font-family: "Cambria" !important;
+    background-color: #ccc;
+    padding: 25px 15px;
+    border: 4px solid #1f6225;
+}
+
+.contact-us .contact-form label {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+    font-size: 14px;
+}
+
+.contact-us .contact-information {
+    font-family: "Cambria" !important;
+    padding: 25px 15px;
+}
+
+.contact-us .contact-information p {
+    font-family: "Cambria" !important;
+    font-size: 15px;
+}
+
+.contact-us .contact-information .address .fa {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+    margin-right: 7px;
+}
+
+.contact-us .contact-information .social {
+    font-family: "Cambria" !important;
+    font-size: 30px;
+}
+
+.resorts {
+    font-family: "Cambria" !important;
+    background: black url("../img/resort-bg.jpg") center center fixed;
+    background-size: cover;
+}
+
+.resorts .nav a {
+    font-family: "Cambria" !important;
+    display: block;
+    border: 2px solid #fff;
+    padding: 50px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.resorts .nav a:hover {
+    font-family: "Cambria" !important;
+    color: #329c3b;
+    border-color: #329c3b;
+}
+
+.about-resort {
+    font-family: "Cambria" !important;
+    background: #d2ff52;
+    background: -moz-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(100%, rgba(1, 92, 48, 0.8)));
+    background: -webkit-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -o-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -ms-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: linear-gradient(to right, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2ff52', endColorstr='#015c30', GradientType=1);
+}
+
+.about-resort .about-resort-img {
+    font-family: "Cambria" !important;
+    margin-bottom: 30px;
+}
+
+.vip-resort {
+    font-family: "Cambria" !important;
+    background: #b3e02a;
+    background: -moz-linear-gradient(left, #b3e02a 0%, rgba(158, 171, 164, 0.8) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #b3e02a), color-stop(100%, rgba(158, 171, 164, 0.8)));
+    background: -webkit-linear-gradient(left, #b3e02a 0%, rgba(158, 171, 164, 0.8) 100%);
+    background: -o-linear-gradient(left, #b3e02a 0%, rgba(158, 171, 164, 0.8) 100%);
+    background: -ms-linear-gradient(left, #b3e02a 0%, rgba(158, 171, 164, 0.8) 100%);
+    background: linear-gradient(to right, #b3e02a 0%, rgba(158, 171, 164, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3e02a', endColorstr='#9eaba4', GradientType=1);
+}
+
+.vip-resort .vip-resort-img {
+    font-family: "Cambria" !important;
+    margin-bottom: 30px;
+}
+
+.alkaline-service {
+    font-family: "Cambria" !important;
+    background: #d2ff52;    
+    background: -moz-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(100%, rgba(1, 92, 48, 0.8)));
+    background: -webkit-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -o-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: -ms-linear-gradient(left, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    background: linear-gradient(to right, #d2ff52 0%, rgba(1, 92, 48, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2ff52', endColorstr='#015c30', GradientType=1);
+}
+
+.treatments_0 {
+    font-family: "Cambria" !important;
+    background: url("../img/treatment0.jpg") center center fixed;
+}
+
+.treatments_1 {
+    font-family: "Cambria" !important;
+    background: url("../img/treatment1.jpg") center center fixed;
+}
+
+.treatments_2 {
+    font-family: "Cambria" !important;
+    background: url("../img/treatment2.jpg") center center fixed;
+}
+
+.treatments_3 {
+    font-family: "Cambria" !important;
+    background: url("../img/treatment3.jpg") center center fixed;
+}
+
+.treatments_4 {
+    font-family: "Cambria" !important;
+    background: url("../img/cryolipolysis.jpg") center center fixed;
+}
+
+.treatments_5 {
+    font-family: "Cambria" !important;
+    background: url("../img/cryolipolysis.jpg") center center fixed;
+}
+
+.treatments_6 {
+    font-family: "Cambria" !important;
+    background: url("../img/cryolipolysis.jpg") center center fixed;
+}
+
+.cryolipolysis-service {
+    font-family: "Cambria" !important;
+    background: url("../img/cryolipolysis.jpg") center center fixed;
+}
+
+.far-service {
+    font-family: "Cambria" !important;
+    background: url("../img/far.jpg") center center fixed;
+}
+
+.foot-service {
+    font-family: "Cambria" !important;
+    background: url("../img/foot.jpg") center center fixed;
+}
+
+.microvibrations-service {
+    font-family: "Cambria" !important;
+    background: url("../img/microvibrations.jpg") center center fixed;
+}
+.alkaline-service {
+    font-family: "Cambria" !important;
+    background: url("../img/alakaline.jpg") center center fixed;
+}
+
+.alkaline-service, .cryolipolysis-service, .far-service, .foot-service, .microvibrations-service {
+    font-family: "Cambria" !important;
+    background-size: cover;
+    color: #fff;    
+}
+
+.treatments_0, .treatments_1, .treatments_2, .treatments_3, .treatments_4, .treatments_5, .treatments_6 {
+    font-family: "Cambria" !important;
+    background-size: cover;
+    color: #fff;
+}
+
+.alkaline-service button, .alkaline-service a, .cryolipolysis-service button, .cryolipolysis-service a, .far-service button, .far-service a, .foot-service button, .foot-service a, .microvibrations-service button, .microvibrations-service a {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.treatments_0 button, .treatments_0 a, .treatments_1 button, .treatments_1 a, .treatments_2 button, .treatments_2 a, .treatments_3 button, .treatments_3 a, .treatments_4 button, .treatments_4 a, .treatments_5 button, .treatments_5 a, .treatments_6 button .treatments_3 a {
+    font-family: "Cambria" !important;
+    color: #fff;
+}
+
+.alkaline-service .modal, .cryolipolysis-service .modal, .far-service .modal, .foot-service .modal, .microvibrations-service .modal {
+    font-family: "Cambria" !important;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.treatments_0 .modal, .treatments_1 .modal, .treatments_2 .modal, .treatments_3 .modal, .treatments_4 .modal, .treatments_5 .modal, .treatments_6 .modal{
+    font-family: "Cambria" !important;
+    color: #000;
+}
+
+#modal_0, #modal_1, #modal_2,#modal_3,#modal_4,#modal_5,#modal_6{
+    font-family: "Cambria" !important;
+    color: #000;
+}
+
+#modal_0 p, #modal_1 p, #modal_2 p,#modal_3 p,#modal_4 p,#modal_5 p,#modal_6 p{
+    font-family: "Cambria" !important;
+ margin-bottom: 0px;
+}
+
+.alkaline-service .description, .cryolipolysis-service .description, .far-service .description, .foot-service .description, .microvibrations-service .description {
+    font-family: "Cambria" !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.treatments_0 .description, .treatments_1 .description, .treatments_2 .description, .treatments_3 .description, .treatments_4 .description, .treatments_5 .description, .treatments_6 .description{
+    font-family: "Cambria" !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.modal-header {
+    font-family: "Cambria" !important;
+    border-color: #329c3b !important;
+    text-align: center;
+    color:#12ab12 !important;
+}
+
+.modal-body{
+    //text-align: center;
+    color: #12ab12 !important;
+    //padding:15px !important;
+    position: relative;
+    left: 20px;
+}
+
+.modal-body p{
+    //text-align: center;
+    color: #12ab12 !important;
+    margin-bottom:5px;
+}
+.modal-body p span{
+    //text-align: center;
+    color: #12ab12 !important;
+}
+.modal-body ul li {
+    //text-align: center;
+    color: #12ab12 !important;
+    padding-left:5px;
+}
+.modal-body ul li span{
+    //text-align: center;
+    color: #12ab12 !important;    
+}

@@ -1,0 +1,42 @@
+.alkaline-service {
+		background: rgba(210,255,82,1);
+	background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(1,92,48,0.8)));
+	background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+	background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+	background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+	background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(1,92,48,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#015c30', GradientType=1 );
+}
+.cryolipolysis-service {
+	background: url('../img/cryolipolysis.jpg') center center fixed;
+}
+.far-service {
+	background: url('../img/far.jpg') center center fixed;
+}
+.foot-service {
+	background: url('../img/foot.jpg') center center fixed;
+}
+.microvibrations-service {
+	background: url('../img/microvibrations.jpg') center center fixed;
+}
+
+.alkaline-service, .cryolipolysis-service, .far-service, .foot-service, .microvibrations-service {
+	background-size: cover;
+	color: $white;
+	
+	button,a {
+		color: $white;
+	}
+
+	.modal {
+		color: $black;
+	}
+
+	.description {
+		background-color: rgba(0,0,0,.5);
+		padding: 15px;
+		border-radius: 10px;
+
+	}
+}

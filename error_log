@@ -1,0 +1,19 @@
+[14-Dec-2016 06:39:37 UTC] PHP Fatal error:  Class 'App\Mail' not found in /home/ab9081/public_html/demo/web_vantage/app/Http/Controllers/Home_index.php on line 91
+[14-Dec-2016 06:49:10 UTC] PHP Fatal error:  Class 'App\Mail' not found in /home/ab9081/public_html/demo/web_vantage/app/Http/Controllers/Home_index.php on line 91
+[03-Jan-2017 07:48:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/vantage/public_html/app/Http/Controllers/Employees.php on line 330
+[03-Jan-2017 09:03:06 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/vantage/public_html/app/Http/Controllers/Employees.php on line 340
+[10-Jan-2017 10:13:18 UTC] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/vantage/public_html/app/Http/Controllers/Home_index.php on line 105
+[10-Jan-2017 10:31:17 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Gallery_sub_cat' not found in /home/vantage/public_html/app/Http/Controllers/Home_index.php on line 105
+[11-Jan-2017 10:35:22 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 189
+[11-Jan-2017 10:37:52 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 189
+[11-Jan-2017 10:46:42 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 189
+[11-Jan-2017 10:52:39 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 189
+[11-Jan-2017 11:15:25 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 192
+[12-Jan-2017 12:05:35 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on null in /home/vantage/public_html/app/Http/Controllers/Resort.php on line 71
+[12-Jan-2017 12:14:48 UTC] PHP Parse error:  syntax error, unexpected ''png'' (T_CONSTANT_ENCAPSED_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 121
+[12-Jan-2017 12:33:09 UTC] PHP Parse error:  syntax error, unexpected 'io' (T_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 122
+[12-Jan-2017 12:33:09 UTC] PHP Parse error:  syntax error, unexpected 'io' (T_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 122
+[12-Jan-2017 12:34:57 UTC] PHP Parse error:  syntax error, unexpected '')); ?>"></img>' (T_CONSTANT_ENCAPSED_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 218
+[12-Jan-2017 12:35:11 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 122
+[12-Jan-2017 12:35:35 UTC] PHP Parse error:  syntax error, unexpected ''.png'' (T_CONSTANT_ENCAPSED_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 122
+[12-Jan-2017 12:35:58 UTC] PHP Parse error:  syntax error, unexpected ''/.png'' (T_CONSTANT_ENCAPSED_STRING) in /home/vantage/public_html/storage/framework/views/b86ea583aa9bfb3eb3edb4b32ad3746c2ad980c3.php on line 122
